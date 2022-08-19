@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    internal class ProjeDbContext :DbContext
+    public class ProjeDbContext :DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
